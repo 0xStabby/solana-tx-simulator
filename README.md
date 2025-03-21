@@ -51,7 +51,7 @@ Simulates a VersionedTransaction object directly.
 
 Both return a BalanceChangeResult:
 
-```
+``` ts
 type BalanceChange = {
   preBalance: number,
   postBalance: number,
