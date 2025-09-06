@@ -26,5 +26,5 @@ jobs:
       - run: pnpm build || true
 
       - run: pnpm publish
-        env: { NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
-
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
