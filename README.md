@@ -38,16 +38,16 @@ console.log(result);
 ---
 
 ## 📘 API
+
+Simulates a base64-encoded transaction.
 ``` ts
 simulateEncodedTransaction(connection, encodedTx, signerPublicKey)
 ```
 
-Simulates a base64-encoded transaction.
+Simulates a VersionedTransaction object directly.
 ``` ts
 simulateTransaction(connection, transaction, signerPublicKey)
 ```
-
-Simulates a VersionedTransaction object directly.
 
 Both return a BalanceChangeResult:
 
