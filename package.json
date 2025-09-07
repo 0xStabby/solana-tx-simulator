@@ -1,5 +1,5 @@
 {
-	"name": "@0xstabby/solana-tx-simulator",
+	"name": "solana-tx-simulator",
 	"version": "0.0.0-alpha.0",
 	"description": "",
   "main": "dist/index.js",
